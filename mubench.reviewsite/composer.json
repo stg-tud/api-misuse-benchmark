@@ -6,7 +6,7 @@
     "slim/slim": "3.5.0",
     "slim/php-view": "2.1.0",
     "tuupola/slim-basic-auth": "^2.2",
-    "usmanhalalit/pixie": "2.0.0",
+    "usmanhalalit/pixie": "2.0.2",
     "erusev/parsedown": "^1.6",
     "illuminate/database": "v5.5.2",
     "illuminate/events": "v5.5.17"
