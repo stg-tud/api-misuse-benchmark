@@ -1,0 +1,5 @@
+name: dbeaver-core
+repository:
+  type: git
+  url: https://github.com/dbeaver/dbeaver
+url: https://github.com/dbeaver/dbeaver

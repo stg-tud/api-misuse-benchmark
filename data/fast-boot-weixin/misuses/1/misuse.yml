@@ -1,0 +1,15 @@
+api:
+- javax.crypto.spec.IvParameterSpec
+violations:
+- insecure/condition/randomization
+description: >
+  First parameter while creating IvParameterSpec object i.e. IvParameterSpec(byte[],int,int) was not properly randomized.
+location:
+  file: com/mxixm/fastboot/weixin/service/WxXmlCryptoService.java
+  method: "afterPropertiesSet()"
+  line: 103
+internal: false
+pattern:
+crash: false
+source: 
+  name:

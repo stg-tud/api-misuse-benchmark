@@ -1,0 +1,9 @@
+build:
+  classes: AndResGuard/AndResGuard-core/$gradle.default.classes
+  commands:
+  - gradle build
+  src: AndResGuard/AndResGuard-core/src
+misuses:
+- '1'
+- '2'
+revision: f03c69ad2860b5131c5489ca503843172a8f91e4

@@ -1,0 +1,17 @@
+api:
+- javax.crypto.spec.PBEParameterSpec
+violations:
+- insecure/condition/iteration_count
+description: |
+  The parameter iteration count for the constructor of PBEParameterSpec is 20 and should be greater than 10000.       
+  More details are available in the following CrySL rule <https://github.com/CROSSINGTUD/Crypto-API-Rules/blob/master/JavaCryptographicArchitecture/src/PBEParameterSpec.cryptsl>. 
+location:
+  file: com/bwssystems/HABridge/BridgeSecurity.java
+  method: "encrypt(String)"
+  line: 331
+internal: false 
+pattern:
+crash: false
+source: 
+  name: MSR 2019 Data Showcase A Dataset of Parametric Cryptographic Misuses by Wickert, Reif, Eichberg, Dodhy, and Mezini
+  url: https://github.com/akwick/MUBench/tree/thesis-2018-anam-dodhy

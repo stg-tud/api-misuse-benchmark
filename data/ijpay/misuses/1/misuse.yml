@@ -1,0 +1,15 @@
+api:
+- java.security.MessageDigest
+violations:
+- insecure/condition/transformation
+description: >
+  First parameter in MessageDigest.getInstance(String) is with value "SHA-1" should be any of {SHA-256, SHA-384, SHA-512}
+location:
+  file: com/jpay/unionpay/SecureUtil.java
+  method: "sha1(byte[])"
+  line: 167
+internal: false
+pattern:
+crash: false
+source: 
+  name:

@@ -1,0 +1,15 @@
+api:
+- javax.crypto.Cipher
+violations:
+- insecure/condition/transformation
+description: >
+  First parameter in Cipher.getInstance(String) is with value "AES/CBC/NoPadding" which should be any of AES/CBC/{Empty String, PKCS7Padding, PKCS5Padding, ISO10126Padding}.
+location:
+  file: com/mxixm/fastboot/weixin/service/WxXmlCryptoService.java
+  method: "afterPropertiesSet()"
+  line: 102
+internal: false
+pattern:
+crash: false
+source: 
+  name:

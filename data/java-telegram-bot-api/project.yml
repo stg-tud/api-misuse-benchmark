@@ -1,0 +1,5 @@
+name: java-telegram-bot-api
+repository:
+  type: git
+  url: https://github.com/pengrad/java-telegram-bot-api
+url: https://github.com/pengrad/java-telegram-bot-api

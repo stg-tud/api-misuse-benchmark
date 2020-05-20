@@ -1,0 +1,17 @@
+build:
+  classes: TLS-Core/$mvn.default.classes
+  commands:
+  - mvn clean compile              
+  src: TLS-Core/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+revision: 6d4de771d4491c27aea9ec04a6078edd2059f636

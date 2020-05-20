@@ -1,0 +1,5 @@
+name: dubbo3
+repository:
+  type: git
+  url: https://github.com/linux-china/dubbo3
+url: https://github.com/linux-china/dubbo3

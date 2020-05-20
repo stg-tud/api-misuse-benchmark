@@ -1,0 +1,8 @@
+build:
+  classes: java-telegram-bot-api/library/$gradle.default.classes
+  commands:
+  - gradle compileJava
+  src: java-telegram-bot-api/library/src/main/java
+misuses:
+- '1'
+revision: 04fbbbb2255ec1e37753f8f448fa5cfd2c7f6a6a

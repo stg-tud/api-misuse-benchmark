@@ -1,0 +1,9 @@
+build:
+ classes: hessian-lite/$mvn.default.classes
+ commands:
+  - mvn -pl :hessian-lite -am clean install
+ src: hessian-lite/src/main/java/
+misuses:
+- '1'
+- '2'   
+revision: a3fa2dbf2d94e54c532a655f776f96f2492f0617

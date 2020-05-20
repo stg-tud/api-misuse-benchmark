@@ -1,0 +1,5 @@
+name: ha-bridge
+repository:
+  type: git
+  url: https://github.com/bwssytems/ha-bridge
+url: https://github.com/bwssytems/ha-bridge

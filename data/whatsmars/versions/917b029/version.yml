@@ -1,0 +1,20 @@
+build:
+  classes: whatsmars-common/$mvn.default.classes
+  commands:
+  - mvn clean compile
+  src: whatsmars-common/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+revision: 917b0290e38b93c25b33d49be6f338c625288899

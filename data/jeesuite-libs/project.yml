@@ -1,0 +1,5 @@
+name: jeesuite-libs
+repository:
+  type: git
+  url: https://github.com/vakinge/jeesuite-libs
+url: https://github.com/vakinge/jeesuite-libs

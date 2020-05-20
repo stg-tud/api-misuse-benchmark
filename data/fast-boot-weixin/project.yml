@@ -1,0 +1,5 @@
+name: fast-boot-weixin
+repository:
+  type: git
+  url: https://github.com/FastBootWeixin/FastBootWeixin
+url: https://github.com/FastBootWeixin/FastBootWeixin

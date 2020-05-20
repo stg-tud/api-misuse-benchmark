@@ -1,0 +1,8 @@
+build:
+  classes: saturn-console-core/$mvn.default.classes
+  commands:
+  - mvn clean compile
+  src: saturn-console-core/src/main/java/
+misuses:
+- '1'
+revision: 69bb353d31e63ddf16f5fcf501c4873332f4c370

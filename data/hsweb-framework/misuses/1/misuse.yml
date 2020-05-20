@@ -1,0 +1,15 @@
+api:
+- javax.crypto.spec.SecretKeySpec
+violations:
+- insecure/condition/randomization
+description: >
+  While creating the SecretKeySpec object, the first parameter was not properly randomized.
+location:
+  file: org/hswebframework/web/authorization/jwt/JwtConfig.java
+  method: "generalKey()"
+  line: 47
+internal: false
+pattern:
+crash: false
+source: 
+  name:

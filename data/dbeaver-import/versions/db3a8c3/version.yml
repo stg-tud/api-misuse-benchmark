@@ -1,0 +1,13 @@
+build:
+  classes: plugins/org.jkiss.dbeaver.ext.import_config/$mvn.default.classes
+  commands:
+  - mvn package
+  src: plugins/org.jkiss.dbeaver.ext.import_config/src/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+revision: db3a8c38d460b92977b808cbc43ab08e6ab956fc

@@ -1,0 +1,10 @@
+build:
+  classes: bt-core/$mvn.default.classes
+  commands:
+  - mvn compile              
+  src: bt-core/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+revision: 3cde897bf959d68958ec44277e2d134bfe51be3a

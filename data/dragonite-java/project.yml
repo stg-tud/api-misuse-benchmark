@@ -1,0 +1,5 @@
+name: dragonite-java
+repository:
+  type: git
+  url: https://github.com/dragonite-network/dragonite-java
+url: https://github.com/dragonite-network/dragonite-java

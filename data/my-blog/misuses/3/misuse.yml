@@ -1,0 +1,15 @@
+api:
+- javax.crypto.Cipher
+violations:
+- insecure/condition/key
+description: >
+  Second parameter in cipher.init(int,java.security.Key) was not properly generatedKey
+location:
+  file: com/my/blog/website/utils/Tools.java
+  method: "enAes(String, String)"
+  line: 60
+internal: false
+pattern:
+crash: false
+source: 
+  name:

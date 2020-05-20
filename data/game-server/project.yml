@@ -1,0 +1,5 @@
+name: game-server
+repository:
+  type: git
+  url: https://github.com/jzyong/game-server
+url: https://github.com/jzyong/game-server

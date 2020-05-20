@@ -1,0 +1,11 @@
+build:
+  classes: game-common/$mvn.default.classes
+  commands:
+  -  mvn compile              
+  src: game-common/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+revision: c069be1ff943da0562ad27caafe98dc88e4751f7

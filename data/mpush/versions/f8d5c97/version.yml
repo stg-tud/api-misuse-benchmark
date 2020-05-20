@@ -1,0 +1,14 @@
+build:
+  classes: mpush-tools/$mvn.default.classes
+  commands:
+  - mvn compile              
+  src: mpush-tools/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+revision: f8d5c97f30b2bde12f1b60d11709ae1b75587a2e

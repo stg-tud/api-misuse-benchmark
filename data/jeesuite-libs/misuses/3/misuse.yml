@@ -1,0 +1,16 @@
+api:
+- javax.crypto.Cipher
+violations:
+- insecure/condition/IV
+description: >
+  Third parameter while initializing the Cipher object was not properly preparedIV.
+location:
+  file: com/jeesuite/common/crypt/DES.java
+  method: "encrypt(String, String)"
+  line: 38
+internal: false
+pattern:
+crash: false
+source: 
+  name: MSR 2019 Data Showcase A Dataset of Parametric Cryptographic Misuses by Wickert, Reif, Eichberg, Dodhy, and Mezini
+  url: https://github.com/akwick/MUBench/tree/thesis-2018-anam-dodhy

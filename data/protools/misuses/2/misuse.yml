@@ -1,0 +1,15 @@
+api:
+- javax.crypto.spec.PBEParameterSpec
+violations:
+- insecure/condition/iteration_count
+description: >
+  While creating the PBEParameterSpec object i.e. new PBEParameterSpec(byte[], int), second parameter (iteration count) value is 100 which should be greater than 1000.
+location:
+  file: pro/tools/security/ToolPBE.java
+  method: "decrypt(byte[], String, byte[])"
+  line: 147
+internal: false
+pattern:
+crash: false
+source: 
+  name:

@@ -1,0 +1,5 @@
+name: spring-boot-quick
+repository:
+  type: git
+  url: https://github.com/vector4wang/spring-boot-quick
+url: https://github.com/vector4wang/spring-boot-quick

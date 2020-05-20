@@ -1,0 +1,15 @@
+api:
+- javax.crypto.Cipher
+violations:
+- insecure/condition/transformation
+description: >
+ First parameter in Cipher.getInstance(String) is with value "DES/ECB/PKCS5Padding" where DES and ECB should not be used.
+location:
+  file: pro/tools/security/ToolDES.java
+  method: "decrypt(byte[], byte[])"
+  line: 82
+internal: false
+pattern:
+crash: false
+source: 
+  name:

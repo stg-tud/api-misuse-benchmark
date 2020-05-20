@@ -1,0 +1,16 @@
+api:
+- java.security.MessageDigest
+violations:
+- insecure/condition/transformation
+description: >
+  First parameter in MessageDigest.getInstance(String) can have values {SHA-1 or MD5} when this function is called which should be any of {SHA-256, SHA-384, SHA-512}
+location:
+  file: publiccms-parent/publiccms-common/src/main/java/com/publiccms/common/tools/VerificationUtils.java
+  method: "encode(String,String)"
+  line: 246
+internal: false
+pattern:
+crash: false
+source: 
+  name: MSR 2019 Data Showcase A Dataset of Parametric Cryptographic Misuses by Wickert, Reif, Eichberg, Dodhy, and Mezini
+  url: https://github.com/akwick/MUBench/tree/thesis-2018-anam-dodhy

@@ -1,0 +1,12 @@
+build:
+  classes: solr/build/solr-core/classes/java  
+  commands:
+  - ant ivy-bootstrap
+  - ant compile              
+  src: solr/core/src/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+revision: 928b92caa0bcbff2288b5bf2ab602ec04ff88a78

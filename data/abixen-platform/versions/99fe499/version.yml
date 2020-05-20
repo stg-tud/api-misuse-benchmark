@@ -1,0 +1,16 @@
+build:
+ classes: abixen-platform-business-intelligence-service/$mvn.default.classes
+ commands:
+ - mvn -pl :abixen-platform-web-content-service -am clean install
+ src: abixen-platform-business-intelligence-service/src/
+misuses:
+- '1'
+- '2'
+- '3'   
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+revision: 99fe4994a70be92078545add013bb3bcdc089360

@@ -1,0 +1,15 @@
+api:
+- javax.crypto.spec.PBEKeySpec
+violations:
+- insecure/condition/iteration_count
+description: >
+  The third parameter of PBEKeySpec(passPhrase.toCharArray(), byte[], int) is the Iteration count with 17 value which should be greater than 10000
+location:
+  file: com/snowcattle/game/common/util/DesEncrypter.java
+  method: "DesEncrypter(String, byte[])"
+  line: 34
+internal: false
+pattern:
+crash: false
+source: 
+  name:

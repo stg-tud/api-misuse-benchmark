@@ -1,0 +1,16 @@
+build:
+  classes: jeesuite-common/$mvn.default.classes
+  commands:
+  - mvn clean compile
+  src: jeesuite-common/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+revision: 2a545bd645c6ba2f145ddad35a8256fd248c8bae

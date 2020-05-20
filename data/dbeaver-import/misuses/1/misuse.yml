@@ -1,0 +1,16 @@
+api:
+- javax.crypto.Cipher
+violations:
+- insecure/condition/transformation
+description: >
+  First parameter in Cipher.getInstance(String) is with value "Blowfish/ECB/NoPadding" which should be any of Blowfish/{CBC, PCBC, CTR, CTS, CFB, OFB}.
+location:
+  file: org/jkiss/dbeaver/ext/import_config/wizards/navicat/NavicatEncrypt.java
+  method: "initChiperEncrypt()"
+  line: 51
+internal: false
+pattern:
+crash: false
+source: 
+  name: MSR 2019 Data Showcase A Dataset of Parametric Cryptographic Misuses by Wickert, Reif, Eichberg, Dodhy, and Mezini
+  url: https://github.com/akwick/MUBench/tree/thesis-2018-anam-dodhy

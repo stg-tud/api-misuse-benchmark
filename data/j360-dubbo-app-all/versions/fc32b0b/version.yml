@@ -1,0 +1,12 @@
+build:
+  classes: j360-dubbo-modules/$mvn.default.classes
+  commands:
+  - mvn clean compile
+  src: j360-dubbo-modules/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+revision: fc32b0b074177a30d558ae8f0714ae4c05a7e47f

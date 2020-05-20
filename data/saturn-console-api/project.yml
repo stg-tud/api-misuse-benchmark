@@ -1,0 +1,5 @@
+name: saturn-console-api
+repository:
+  type: git
+  url: https://github.com/vipshop/Saturn
+url: https://github.com/vipshop/Saturn

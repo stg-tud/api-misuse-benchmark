@@ -1,0 +1,5 @@
+name: NettyGameServer
+repository:
+  type: git
+  url: https://github.com/jwpttcg66/NettyGameServer
+url: https://github.com/jwpttcg66/NettyGameServer

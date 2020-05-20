@@ -1,0 +1,9 @@
+build:
+  classes: $mvn.default.classes
+  commands:
+  - git stash
+  - mvn compile              
+  src: src/main/java/
+misuses:
+- '1'
+revision: dbf6360515d09a4f3e9a65b6aa04d15b3a27cda9

@@ -1,5 +1,5 @@
 build:
-  classes: target/classes/
+  classes: $mvn.default.classes
   commands:
   - mvn compile
   src: src/main/java/

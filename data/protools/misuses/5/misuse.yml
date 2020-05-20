@@ -1,0 +1,15 @@
+api:
+- javax.crypto.Cipher
+violations:
+- insecure/condition/transformation
+description: >
+  First parameter in Cipher.getInstance(String) is with value "DESede/ECB/PKCS5Padding" where ECB should not be used with DESede
+location:
+  file: pro/tools/security/ToolDESede.java
+  method: "encrypt(byte[], byte[])"
+  line: 110
+internal: false
+pattern:
+crash: false
+source: 
+  name:

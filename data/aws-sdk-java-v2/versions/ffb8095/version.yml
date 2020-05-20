@@ -1,0 +1,8 @@
+build:
+  classes: core/auth/$mvn.default.classes
+  commands:
+  - mvn -pl :aws-core -am clean compile
+  src: core/auth/src/main/java/
+misuses:
+- '1'
+revision: ffb8095cab661a1f5318cb217eddde250626e44f

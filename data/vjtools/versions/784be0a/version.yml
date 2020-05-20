@@ -1,0 +1,9 @@
+build:
+  classes: vjkit/$mvn.default.classes
+  commands:
+  -  mvn compile              
+  src: vjkit/src/main/java/
+misuses:
+- '1'
+- '2'
+revision: 784be0ad9f39bb0f55bd9e656d6c18d4dfa80846

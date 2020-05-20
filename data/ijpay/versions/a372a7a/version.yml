@@ -1,0 +1,15 @@
+build:
+  classes: $mvn.default.classes
+  commands:
+  -  mvn compile              
+  src: src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+revision: a372a7af405bb60ef8e101f1f0ece03e9d25081e

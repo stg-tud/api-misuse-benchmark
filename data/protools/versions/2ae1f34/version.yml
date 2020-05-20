@@ -1,0 +1,15 @@
+build:
+  classes: security/$mvn.default.classes
+  commands:
+  -  mvn compile              
+  src: security/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+revision: 2ae1f34bfd95075f43319ed70505fcc9caafa29b

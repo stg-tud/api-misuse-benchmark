@@ -1,0 +1,5 @@
+name: tls-attacker
+repository:
+  type: git
+  url: https://github.com/RUB-NDS/TLS-Attacker
+url: https://github.com/RUB-NDS/TLS-Attacker

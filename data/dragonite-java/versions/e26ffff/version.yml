@@ -1,0 +1,8 @@
+build:
+  classes: dragonite-sdk/$gradle.default.classes
+  commands:
+  - gradle build              
+  src: dragonite-sdk/src/
+misuses:
+- '2'
+revision: e26ffff0b0705ec72769bbd174b61df370f5ee2e

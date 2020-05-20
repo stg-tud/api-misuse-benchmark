@@ -1,0 +1,11 @@
+build:
+  classes: game-engine/$mvn.default.classes
+  commands:
+  -  mvn compile              
+  src: game-engine/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+revision: 6d7d4506b2dd51a14279e97982f3f988839eb34f

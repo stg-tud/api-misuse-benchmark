@@ -1,0 +1,9 @@
+build:
+  classes: core/$mvn.default.classes
+  commands:
+  -  mvn compile              
+  src: core/src/
+misuses:
+- '1'
+- '2'
+revision: 5b539aa0b92aaaa3000580b73ec97b0c70c2e645

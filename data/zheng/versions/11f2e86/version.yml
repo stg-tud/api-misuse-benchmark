@@ -1,0 +1,10 @@
+build:
+  classes: zheng-common/$mvn.default.classes
+  commands:
+  - mvn clean compile
+  src: zheng-common/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'   
+revision: 11f2e86e9a1cec80cd1a1e41f270d7e2da6ee781

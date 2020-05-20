@@ -1,0 +1,11 @@
+build:
+  classes: pig-gateway/$mvn.default.classes
+  commands:
+  -  mvn compile              
+  src: pig-gateway/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+revision: 579bc2c0c6db1cfa687e66051f11ca64d0a3578e

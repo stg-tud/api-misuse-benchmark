@@ -1,5 +1,5 @@
 build:
-  classes: Jigsaw/target/classes
+  classes: Jigsaw/$mvn.default.classes
   commands:
     - mkdir classes
     - sed -i '13iimport org.w3c.www.http.HttpCookie;' Jigsaw/src/classes/org/w3c/www/protocol/http/cookies/CookieFilter.java

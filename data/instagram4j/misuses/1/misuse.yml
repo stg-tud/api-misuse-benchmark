@@ -1,0 +1,15 @@
+api:
+- javax.crypto.spec.SecretKeySpec
+violations:
+- insecure/condition/randomization
+description: >
+  The first parameter in SecretKeySpec is a not properly generated key. 
+location:
+  file: org/brunocvcunha/instagram4j/util/InstagramHashUtil.java
+  method: "generateHash(String, String)"
+  line: 128
+internal: false 
+pattern:
+crash: false
+source: 
+  name:

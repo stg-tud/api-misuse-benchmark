@@ -1,0 +1,5 @@
+name: job-x
+repository:
+  type: git
+  url: https://github.com/jobxhub/JobX
+url: https://github.com/jobxhub/JobX

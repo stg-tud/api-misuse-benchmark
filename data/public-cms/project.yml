@@ -1,0 +1,5 @@
+name: public-cms
+repository:
+  type: git
+  url: https://github.com/sanluan/PublicCMS
+url: https://github.com/sanluan/PublicCMS

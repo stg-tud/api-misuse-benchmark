@@ -1,0 +1,9 @@
+build:
+  classes: quick-wx-api/$mvn.default.classes
+  commands:
+  -  mvn compile              
+  src: quick-wx-api/src/main/java/
+misuses:
+- '1'
+- '2'
+revision: 10c213efa7e4a568d1ecefb7477d0d3d569c244e

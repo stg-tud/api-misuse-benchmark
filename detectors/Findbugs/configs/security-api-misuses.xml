@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindBugsFilter>
+
+ <Match>
+ 	<Bug pattern="WEAK_MESSAGE_DIGEST_MD5" />
+ </Match>
+ 
+ <Match>
+ 	<Bug pattern="WEAK_MESSAGE_DIGEST_SHA1" />
+ </Match>
+ 
+  <Match>
+ 	<Bug pattern="HAZELCAST_SYMMETRIC_ENCRYPTION " />
+ </Match>
+ 
+  <Match>
+ 	<Bug pattern="DES_USAGE" />
+ </Match>
+ 
+  <Match>
+ 	<Bug pattern="TDES_USAGE" />
+ </Match>
+ 
+  <Match>
+ 	<Bug pattern="RSA_NO_PADDING" />
+ </Match>
+ 
+  <Match>
+ 	<Bug pattern="BLOWFISH_KEY_SIZE" />
+ </Match>
+ 
+  <Match>
+ 	<Bug pattern="RSA_KEY_SIZE" />
+ </Match>
+ 
+ <Match>
+ 	<Bug pattern="STATIC_IV" />
+ </Match>
+ 
+ <Match>
+ 	<Bug pattern="ECB_MODE" />
+ </Match>
+ 
+  <Match>
+ 	<Bug pattern="PADDING_ORACLE" />
+ </Match>
+ 
+  <Match>
+ 	<Bug pattern="CIPHER_INTEGRITY" />
+ </Match>
+ 
+   <Match>
+ 	<Bug pattern="CUSTOM_MESSAGE_DIGEST" />
+ </Match>
+  
+</FindBugsFilter>

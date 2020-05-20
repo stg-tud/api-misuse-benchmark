@@ -1,0 +1,5 @@
+name: symmetric-ds
+repository:
+  type: git
+  url: https://github.com/JumpMind/symmetric-ds
+url: https://github.com/JumpMind/symmetric-ds

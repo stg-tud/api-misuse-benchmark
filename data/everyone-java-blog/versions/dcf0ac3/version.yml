@@ -1,0 +1,11 @@
+build:
+  classes: blog-common/$mvn.default.classes
+  commands:
+  - mvn clean compile
+  src: blog-common/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+revision: dcf0ac348ce946e9bb02a952334d28114f24f6cd

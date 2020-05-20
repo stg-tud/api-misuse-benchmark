@@ -1,0 +1,5 @@
+name: aws-sdk-java-v2
+repository:
+  type: git
+  url: https://github.com/aws/aws-sdk-java-v2
+url: https://github.com/aws/aws-sdk-java-v2

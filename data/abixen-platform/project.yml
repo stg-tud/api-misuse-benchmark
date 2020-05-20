@@ -1,0 +1,5 @@
+name: abixen-platform
+repository:
+  type: git
+  url: https://github.com/abixen/abixen-platform
+url: https://github.com/abixen/abixen-platform

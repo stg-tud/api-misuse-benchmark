@@ -1,0 +1,15 @@
+api:
+- javax.crypto.SecretKeyFactory
+violations:
+- insecure/condition/transformation
+description: >
+  First parameter in SecretKeyFactory.getInstance(String) with value "DES" should be AES with key length between (128, 192, 256).
+location:
+  file: pro/tools/security/ToolDES.java
+  method: "toKey(byte[])"
+  line: 56
+internal: false
+pattern:
+crash: false
+source: 
+  name:

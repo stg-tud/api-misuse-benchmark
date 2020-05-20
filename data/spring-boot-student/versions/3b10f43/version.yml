@@ -1,0 +1,13 @@
+build:
+  classes: spring-boot-student-encode/$mvn.default.classes
+  commands:
+  -  mvn compile              
+  src: spring-boot-student-encode/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+revision: 3b10f430bdebeacc49c6b6d5f8e1a49c08175e63

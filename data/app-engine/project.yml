@@ -1,0 +1,5 @@
+name: app-engine
+repository:
+  type: git
+  url: https://github.com/sofn/app-engine
+url: https://github.com/sofn/app-engine

@@ -1,0 +1,15 @@
+api:
+- java.security.MessageDigest
+violations:
+- insecure/condition/transformation
+description: >
+  First parameter in MessageDigest.getInstance(String) is with value "SHA-1" which should be any of {SHA-256, SHA-384, SHA-512}.
+location:
+  file: com/actiontech/dble/backend/mysql/SecurityUtil.java
+  method: "scramble411(byte[], byte[])"
+  line: 21
+internal: false
+pattern:
+crash: false
+source: 
+  name:

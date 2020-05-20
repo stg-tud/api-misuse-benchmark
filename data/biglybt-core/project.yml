@@ -1,0 +1,5 @@
+name: biglybt-core
+repository:
+  type: git
+  url: https://github.com/BiglySoftware/BiglyBT
+url: https://github.com/BiglySoftware/BiglyBT

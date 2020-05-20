@@ -1,0 +1,5 @@
+name: my-blog
+repository:
+  type: git
+  url: https://github.com/ZHENFENG13/My-Blog
+url: https://github.com/ZHENFENG13/My-Blog

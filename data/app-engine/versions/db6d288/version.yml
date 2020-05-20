@@ -1,0 +1,11 @@
+build:
+  classes: app-engine/common/$gradle.default.classes
+  commands:
+  - gradle compileJava
+  src: app-engine/common/src/main/java
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+revision: db6d288c182cbda5b4d535be5c95f196c4e5aa9b

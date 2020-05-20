@@ -1,0 +1,16 @@
+api:
+- java.security.Signature
+violations:
+- insecure/condition/key
+description: >
+  First parameter in Signature.initSign(PrivateKey) is not a properly generatedPrivkey
+location:
+  file: com/jpay/unionpay/SecureUtil.java
+  method: "signBySoft256(PrivateKey, byte[])"
+  line: 293
+internal: false
+pattern:
+crash: false
+source: 
+  name: MSR 2019 Data Showcase A Dataset of Parametric Cryptographic Misuses by Wickert, Reif, Eichberg, Dodhy, and Mezini
+  url: https://github.com/akwick/MUBench/tree/thesis-2018-anam-dodhy

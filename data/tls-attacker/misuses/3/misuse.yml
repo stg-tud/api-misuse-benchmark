@@ -1,0 +1,16 @@
+api:
+- javax.crypto.spec.SecretKeySpec
+violations:
+- insecure/condition/randomization
+description: >
+  First parameter while creating SecretKeySpec object was not properly randomized
+location:
+  file: de/rub/nds/tlsattacker/core/util/StaticTicketCrypto.java
+  method: "decrypt(CipherAlgorithm, byte[], byte[], byte[])"
+  line: 58
+internal: false
+pattern:
+crash: false
+source: 
+  name: MSR 2019 Data Showcase A Dataset of Parametric Cryptographic Misuses by Wickert, Reif, Eichberg, Dodhy, and Mezini
+  url: https://github.com/akwick/MUBench/tree/thesis-2018-anam-dodhy

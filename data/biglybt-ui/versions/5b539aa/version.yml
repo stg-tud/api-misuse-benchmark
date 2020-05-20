@@ -1,0 +1,10 @@
+build:
+  classes: uis/$mvn.default.classes
+  commands:
+  -  mvn compile              
+  src: uis/src/
+misuses:
+- '1'
+- '2'
+- '3'
+revision: 5b539aa0b92aaaa3000580b73ec97b0c70c2e645

@@ -1,0 +1,15 @@
+api:
+- javax.crypto.spec.SecretKeySpec
+violations: 
+- insecure/condition/randomization
+description: >
+  While creating the SecretKeySpec object, the first parameter was not properly randomized..
+location:
+  file: com/my/blog/website/utils/Tools.java
+  method: "enAes(String, String)"
+  line: 59
+internal: false
+pattern:
+crash: false
+source: 
+  name:

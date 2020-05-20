@@ -1,0 +1,21 @@
+build:
+  classes: jobx-common/$mvn.default.classes
+  commands:
+  -  mvn clean compile            
+  src: jobx-common/src/main/java/
+misuses:
+- '1'
+- '2'
+- '3'
+- '4'
+- '5'
+- '6'
+- '7'
+- '8'
+- '9'
+- '10'
+- '11'
+- '12'
+- '13'
+- '14'
+revision: 414503ffa4938e09ece04d4b6cbf85a5fe19ad67
