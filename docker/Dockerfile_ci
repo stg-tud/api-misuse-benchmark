@@ -19,7 +19,7 @@ RUN apt-get clean \
       && update-ca-certificates \
       && locale-gen en_US en_US.UTF-8 \
       && dpkg-reconfigure locales \
-      && echo "APT::Get::Assume-Yes \"true\";\nAPT::Get::force-yes \"true\";" >> /etc/apt/apt.conf.d/90forceyes \
+      && echo -e "APT::Get::Assume-Yes \"true\";\nAPT::Get::force-yes \"true\";" >> /etc/apt/apt.conf.d/90forceyes \
       && apt-get install openjdk-8-jdk \
       && apt-get install wget \
       && apt-get clean \
